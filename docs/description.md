@@ -4,7 +4,7 @@ Roy håndterer alle forhold omkring generering og forsendelse av dokumenter.
 
 Modulen er en samlemodul som er tenkt plassert etter selve saksbehandlingen.
 
-Modulen skal takle både å innhente nye opplysninger fra ulike kilder og ta i bruk opplysninger derso disse allerede er hentet tidligere i kjeden.
+Modulen skal takle både å innhente nye opplysninger fra ulike kilder og ta i bruk innhentede opplysninger dersom disse allerede er hentet tidligere i kjeden.
 
 ## Prosess
 
