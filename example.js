@@ -7,6 +7,6 @@ roy(input, function (error, message) {
   if (error) {
     console.error(error)
   } else {
-    console.log(message)
+    console.log(JSON.stringify(message))
   }
 })
