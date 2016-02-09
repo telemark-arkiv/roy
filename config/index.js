@@ -1,8 +1,11 @@
 'use strict'
 
 var config = {
-  TEMPLATER_SERVICE_URL: process.env.TEMPLATER_SERVICE_URL || 'https://templater.service.t-fk.no',
-  PDFCONVERTER_SERVICE_URL: process.env.PDFCONVERTER_SERVICE_URL || 'https://pdfconvert.service.t-fk.no'
+  ARCHIVE_DIRECTORY_PATH: process.env.ARCHIVE_DIRECTORY_PATH || 'test/data/archive',
+  DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/data/done',
+  ERROR_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/data/error',
+  JOB_DIRECTORY_PATH: process.env.JOB_DIRECTORY_PATH || 'test/data/jobs',
+  JWT_KEY: process.env.JWT_KEY || 'Louie Louie, oh no, I got to go'
 }
 
 module.exports = config

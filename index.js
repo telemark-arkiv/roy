@@ -1,14 +1,14 @@
 'use strict'
 
 function roy (item, callback) {
-  var fs = require('fs')
   var miss = require('mississippi')
   var streamifier = require('streamifier')
-  var start = streamifier.createReadStream(JSON.stringify(item))
+  var getNextJob = require('./lib/get-next-job')
+  var saveJobDone = require('./lib/save-job-done')
+  var cleanupJob = require('./lib/cleanup-job')
+  var sendStatusMessage = require('./lib/send-status-message')
   var setupItem = require('./lib/setup-item')
-  var generateDocuments = require('./lib/generate-documents')
-  var end = require('./lib/end')
-  var output = fs.createWriteStream('test/data/output.json')
+  var start = streamifier.createReadStream(JSON.stringify(item))
 
   function finished (error) {
     if (error) {
@@ -20,10 +20,11 @@ function roy (item, callback) {
 
   miss.pipe(
     start,
+    getNextJob,
     setupItem,
-    generateDocuments,
-    end,
-    output,
+    saveJobDone,
+    cleanupJob,
+    sendStatusMessage,
     finished
   )
 }
