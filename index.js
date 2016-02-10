@@ -8,6 +8,7 @@ function roy (item, callback) {
   var saveJobDone = require('./lib/save-job-done')
   var saveJobError = require('./lib/save-job-error')
   var cleanupJob = require('./lib/cleanup-job')
+  var cleanupDocuments = require('./lib/cleanup-documents')
   var sendStatusMessage = require('./lib/send-status-message')
   var setupItem = require('./lib/setup-item')
   var start = streamifier.createReadStream(JSON.stringify(item))
@@ -28,6 +29,7 @@ function roy (item, callback) {
     saveJobDone,
     saveJobError,
     cleanupJob,
+    cleanupDocuments,
     sendStatusMessage,
     finished
   )
