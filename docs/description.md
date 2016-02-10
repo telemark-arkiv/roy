@@ -1,17 +1,18 @@
 # Beskrivelse
 
-Roy håndterer alle forhold omkring generering og forsendelse av dokumenter.
+Roy er ment å skulle håndtere alle forhold omkring forsendelse av dokumenter.
 
-Modulen er en samlemodul som er tenkt plassert etter selve saksbehandlingen.
+Modulen vil typisk være plassert etter selve saksbehandlingen i en arbeidsprosess.
 
-Modulen skal takle både å innhente nye opplysninger fra ulike kilder og ta i bruk innhentede opplysninger dersom disse allerede er hentet tidligere i kjeden.
+Modulen skal fungere uavhengig av hvorvidt opplysninger om adresse o.l. er innhentet tidligere
 
 ## Prosess
 
-- Roy mottar en henvendelse
-- Roy genererer nødvendige dokumenter
-- Roy finner adressen til mottakeren
+- Sjekker i en gitt mappe om det er jobber som venter
+    - Hvis ikke avluttes prosessen
+- Slår opp mot dsf på bakgrunn av fødselsnummer
     - dersom mottakeren er under 18 år og dokumentet skal til foresatte hentes foresatte
         - den foresatte som har samme adresse som mottager brukes som kopi
+
 - Roy sjekker om mottager har hemmelig adresse
     - Hvis hemmelig settes status til manuell behandling og Roy avslutter
