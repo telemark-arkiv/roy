@@ -6,6 +6,7 @@ function roy (item, callback) {
   var getNextJob = require('./lib/get-next-job')
   var lookupDsf = require('./lib/lookup-dsf')
   var lookup360 = require('./lib/lookup-360')
+  var lookupRestrictedAddress = require('./lib/lookup-restricted-address')
   var saveJobDone = require('./lib/save-job-done')
   var saveJobError = require('./lib/save-job-error')
   var cleanupJob = require('./lib/cleanup-job')
@@ -14,6 +15,7 @@ function roy (item, callback) {
   var sendDocumentsToSvarUt = require('./lib/send-documents-to-svarut')
   var setupItem = require('./lib/setup-item')
   var setupSvarut = require('./lib/setup-svarut')
+  var unwrapContactInformation = require('./lib/unwrap-contact-information')
   var start = streamifier.createReadStream(JSON.stringify(item))
 
   function finished (error) {
@@ -30,6 +32,8 @@ function roy (item, callback) {
     setupItem,
     lookupDsf,
     lookup360,
+    unwrapContactInformation,
+    lookupRestrictedAddress,
     setupSvarut,
     sendDocumentsToSvarUt,
     saveJobDone,
