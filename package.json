@@ -43,9 +43,9 @@
     "node-dsf": "^2.1.0",
     "p360": "^1.0.6",
     "streamifier": "^0.1.1",
-    "svarut": "^1.1.1",
+    "svarut": "^1.1.2",
     "tfk-360-unwrap-contact": "^1.0.0",
-    "tfk-dsf-unwrap-contact": "^1.0.0",
+    "tfk-dsf-unwrap-contact": "^1.0.1",
     "tfk-is-hemmelig-adresse": "^2.0.1",
     "wreck": "^7.0.0"
   }
