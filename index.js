@@ -4,8 +4,10 @@ function roy (item, callback) {
   var miss = require('mississippi')
   var streamifier = require('streamifier')
   var getNextJob = require('./lib/get-next-job')
+  var filterParentsInformation = require('./lib/filter-parents-information')
   var lookupDsf = require('./lib/lookup-dsf')
   var lookup360 = require('./lib/lookup-360')
+  var lookupGuardianInformation = require('./lib/lookup-guardian-information')
   var lookupRestrictedAddress = require('./lib/lookup-restricted-address')
   var saveJobDone = require('./lib/save-job-done')
   var saveJobError = require('./lib/save-job-error')
@@ -16,6 +18,7 @@ function roy (item, callback) {
   var setupItem = require('./lib/setup-item')
   var setupSvarut = require('./lib/setup-svarut')
   var unwrapContactInformation = require('./lib/unwrap-contact-information')
+  var unwrapParentsInformation = require('./lib/unwrap-parents-information')
   var start = streamifier.createReadStream(JSON.stringify(item))
 
   function finished (error) {
@@ -33,6 +36,9 @@ function roy (item, callback) {
     lookupDsf,
     lookup360,
     unwrapContactInformation,
+    unwrapParentsInformation,
+    filterParentsInformation,
+    lookupGuardianInformation,
     lookupRestrictedAddress,
     setupSvarut,
     sendDocumentsToSvarUt,
