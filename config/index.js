@@ -13,6 +13,7 @@ var config = {
   SVARUT_URL: process.env.SVARUT_URL || 'test.svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV4',
   SVARUT_USERNAME: process.env.SVARUT_USERNAME || 'MrSmith',
   SVARUT_PASSWORD: process.env.SVARUT_PASSWORD || 'MrSmithsPassword',
+  SVARUT_KONTERINGSKODE: process.env.SVARUT_KONTERINGSKODE || '1111',
   P360WS_BASEURL: process.env.P360WS_BASEURL || 'http://tfk-fh-siweb01.login.top.no:8088/SI.WS.Core/SIF/',
   P360WS_USER: process.env.P360WS_USER || 'domain/username',
   P360WS_PASSWORD: process.env.P360WS_PASSWORD || 'password'
