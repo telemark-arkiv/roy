@@ -46,7 +46,7 @@
     "svarut": "^2.0.0",
     "tfk-360-unwrap-contact": "^1.0.0",
     "tfk-dsf-unwrap-contact": "^1.0.2",
-    "tfk-dsf-unwrap-parents": "^1.0.1",
+    "tfk-dsf-unwrap-parents": "^2.0.0",
     "tfk-is-hemmelig-adresse": "^2.0.1",
     "wreck": "^7.0.0"
   }
