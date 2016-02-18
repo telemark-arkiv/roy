@@ -1,6 +1,6 @@
 {
   "name": "tfk-roy",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Your delivery guy",
   "license": "MIT",
   "author": {
@@ -44,7 +44,7 @@
     "p360": "^1.0.6",
     "streamifier": "^0.1.1",
     "svarut": "^2.0.0",
-    "tfk-360-unwrap-contact": "^1.0.0",
+    "tfk-360-unwrap-contact": "^2.0.0",
     "tfk-dsf-unwrap-contact": "^1.0.2",
     "tfk-dsf-unwrap-parents": "^2.0.0",
     "tfk-is-hemmelig-adresse": "^2.0.1",
