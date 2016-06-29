@@ -1,6 +1,6 @@
 {
   "name": "tfk-roy",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Your delivery guy",
   "license": "MIT",
   "author": {
@@ -41,8 +41,8 @@
   },
   "devDependencies": {
     "coveralls": "2.11.9",
-    "standard": "^6.0.4",
-    "tap": "^5.4.3"
+    "standard": "7.1.2",
+    "tap": "5.8.0"
   },
   "dependencies": {
     "jsonwebtoken": "^5.5.4",
