@@ -34,10 +34,13 @@ ENV TFK_ROY_DSF_URL http://ws-test.infotorg.no/xml/ErgoGroup/DetSentraleFolkereg
 ENV TFK_ROY_DSF_NAMESPACE http://ws.infotorg.no/xml/Admin/Brukersesjon/2006-07-07/Brukersesjon.xsd
 ENV TFK_ROY_DSF_USERNAME MrSmith
 ENV TFK_ROY_DSF_PASSWORD MrSmithsPassword
+ENV TFK_ROY_DSF_METHOD hentForeldre
+ENV TFK_ROY_DSF_SAKSREF MinElev
 ENV TFK_ROY_SVARUT_URL test.svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV4
 ENV TFK_ROY_SVARUT_USERNAME MrSmith
 ENV TFK_ROY_SVARUT_PASSWORD MrSmithsPassword
-ENV TFK_ROY_SVARUT_KONTERINGSKODE 1111,
+ENV TFK_ROY_SVARUT_KONTERINGSKODE 1111
+ENV TFK_ROY_SVARUT_AVGIVENDE_SYSTEM MinElev
 ENV TFK_ROY_P360WS_BASEURL http://tfk-fh-siweb01.login.top.no:8088/SI.WS.Core/SIF/
 ENV TFK_ROY_P360WS_USER domain/username
 ENV TFK_ROY_P360WS_PASSWORD password
