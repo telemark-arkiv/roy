@@ -1,6 +1,6 @@
 {
   "name": "tfk-roy",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "description": "Your delivery guy",
   "license": "MIT",
   "author": {
@@ -45,15 +45,15 @@
     "tap": "5.8.0"
   },
   "dependencies": {
-    "jsonwebtoken": "^5.5.4",
-    "mississippi": "^1.2.0",
-    "node-dsf": "^2.1.0",
-    "p360": "^1.1.11",
-    "svarut": "^2.0.1",
-    "tfk-360-unwrap-contact": "^2.0.0",
-    "tfk-dsf-unwrap-contact": "^1.0.2",
-    "tfk-dsf-unwrap-parents": "^2.0.1",
-    "tfk-is-hemmelig-adresse": "^2.0.1",
-    "wreck": "^7.0.0"
+    "jsonwebtoken": "7.0.1",
+    "mississippi": "1.2.0",
+    "node-dsf": "2.1.4",
+    "p360": "1.1.11",
+    "svarut": "2.0.1",
+    "tfk-360-unwrap-contact": "2.0.0",
+    "tfk-dsf-unwrap-contact": "1.0.2",
+    "tfk-dsf-unwrap-parents": "2.0.1",
+    "tfk-is-hemmelig-adresse": "2.0.1",
+    "wreck": "8.0.0"
   }
 }
