@@ -45,7 +45,7 @@
     "tap": "6.2.0"
   },
   "dependencies": {
-    "jsonwebtoken": "7.1.6",
+    "jsonwebtoken": "7.1.7",
     "mississippi": "1.2.0",
     "node-dsf": "2.1.4",
     "p360": "1.1.11",
