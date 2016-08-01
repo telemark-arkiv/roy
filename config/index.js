@@ -16,7 +16,7 @@ var config = {
   SVARUT_USERNAME: process.env.TFK_ROY_SVARUT_USERNAME || 'MrSmith',
   SVARUT_PASSWORD: process.env.TFK_ROY_SVARUT_PASSWORD || 'MrSmithsPassword',
   SVARUT_KONTERINGSKODE: process.env.TFK_ROY_SVARUT_KONTERINGSKODE || '1111',
-  SVARUT_AVGIVENDE_SYSTEM: process.env.SVARUT_AVGIVENDE_SYSTEM || 'MinElev',
+  SVARUT_AVGIVENDE_SYSTEM: process.env.TFK_ROY_SVARUT_AVGIVENDE_SYSTEM || 'MinElev',
   P360WS_BASEURL: process.env.TFK_ROY_P360WS_BASEURL || 'http://tfk-fh-siweb01.login.top.no:8088/SI.WS.Core/SIF/',
   P360WS_USER: process.env.TFK_ROY_P360WS_USER || 'domain/username',
   P360WS_PASSWORD: process.env.TFK_ROY_P360WS_PASSWORD || 'password'
