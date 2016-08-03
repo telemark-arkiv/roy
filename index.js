@@ -4,7 +4,6 @@ module.exports = function roy (item, callback) {
   const miss = require('mississippi')
   const getNextJob = require('./lib/get-next-job')
   const filterParentsInformation = require('./lib/filter-parents-information')
-  const encodeDocumentsToArchive = require('./lib/encode-documents-to-archive')
   const lookupDsf = require('./lib/lookup-dsf')
   const lookup360 = require('./lib/lookup-360')
   const lookupGuardianInformation = require('./lib/lookup-guardian-information')
@@ -61,7 +60,6 @@ module.exports = function roy (item, callback) {
     setupSvarut,
     sendDocumentsToSvarUt,
     setupArchive,
-    encodeDocumentsToArchive,
     saveJobArchive,
     saveJobDone,
     saveJobError,
