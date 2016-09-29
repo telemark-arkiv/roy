@@ -1,6 +1,6 @@
 {
   "name": "tfk-roy",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Your delivery guy",
   "license": "MIT",
   "author": {
@@ -17,7 +17,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4.4.7"
+    "node": ">=4.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
