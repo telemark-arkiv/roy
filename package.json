@@ -49,7 +49,7 @@
     "jsonwebtoken": "7.2.1",
     "mississippi": "1.2.0",
     "node-dsf": "2.1.8",
-    "p360": "2.0.1",
+    "p360": "2.0.3",
     "svarut": "2.0.1",
     "tfk-360-unwrap-contact": "2.0.1",
     "tfk-dsf-unwrap-contact": "1.0.8",
