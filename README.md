@@ -2,6 +2,8 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # roy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/roy.svg)](https://greenkeeper.io/)
+
 Din mann for levering av dokumenter
 
 ## Innhold
