@@ -40,10 +40,10 @@
     "url": "http://github.com/telemark/roy/issues"
   },
   "devDependencies": {
-    "coveralls": "2.11.16",
-    "nsp": "2.6.2",
     "standard": "10.0.0",
-    "tap": "10.3.0"
+    "coveralls": "2.13.0",
+    "nsp": "2.6.3",
+    "tap": "10.3.1"
   },
   "dependencies": {
     "jsonwebtoken": "7.3.0",
@@ -55,6 +55,6 @@
     "tfk-dsf-unwrap-contact": "1.0.8",
     "tfk-dsf-unwrap-parents": "2.0.1",
     "tfk-is-hemmelig-adresse": "2.0.1",
-    "wreck": "10.0.0"
+    "wreck": "11.0.0"
   }
 }
