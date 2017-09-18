@@ -56,6 +56,6 @@
     "tfk-dsf-unwrap-contact": "1.0.10",
     "tfk-dsf-unwrap-parents": "2.0.1",
     "tfk-is-hemmelig-adresse": "2.0.1",
-    "wreck": "13.0.0"
+    "wreck": "13.0.1"
   }
 }
